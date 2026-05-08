@@ -1,7 +1,4 @@
-import { useState } from 'react';
-
 const Dashboard = () => {
-   const [count, setCount] = useState(0);
    return <div>Dashboard</div>;
 };
 
