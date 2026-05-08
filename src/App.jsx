@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <div>
-      <p className="text-green-500">Hello, World!</p>
-    </div>
-  )
-}
+import AppRouter from './Router';
 
-export default App
+const App = () => {
+   return <AppRouter />;
+};
+
+export default App;
