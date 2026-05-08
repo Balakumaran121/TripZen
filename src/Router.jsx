@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard';
 import Orders from './pages/Orders';
 import Login from './pages/Login';
 import CommonLayout from './layouts/CommonLayout';
+import Errorpage from './pages/Errorpage';
 
 const AppRouter = () => {
    return (
@@ -13,6 +14,7 @@ const AppRouter = () => {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/orders" element={<Orders />} />
          </Route>
+         <Route path="*" element={<Errorpage />} />
       </Routes>
    );
 };
